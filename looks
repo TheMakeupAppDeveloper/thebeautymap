@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select Your Look</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Choose Your Look</h1>
+
+    <div class="options">
+      <a href="results.html" class="option-card">Natural</a>
+      <a href="results.html" class="option-card">Soft Glam</a>
+      <a href="results.html" class="option-card">Full Glam</a>
+    </div>
+  </div>
+
+</body>
+</html>
