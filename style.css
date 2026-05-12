@@ -53,13 +53,14 @@ body {
 }
 
 .hero-img {
+    
     width: 45%;
-    max-width: 500px;
+    max-width: 450px;
     height: auto;
     display: block;
     border-radius: 20px;
     box-shadow: 0 10px 40px rgba(0,0,0,0.15);
-}
+
 
 }
 .hero img {
