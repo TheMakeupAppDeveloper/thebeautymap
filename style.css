@@ -8,12 +8,16 @@ body {
 
 /* HERO SECTION */
 .hero {
+    .hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 60px;
     background: linear-gradient(135deg, #fce7ef, #f8d7e3, #f4cbd8);
-    gap: 40px; /* ADD THIS */
+    min-height: 450px; /* ADD THIS */
+    gap: 40px;
+}
+
 }
 
 }
@@ -49,13 +53,14 @@ body {
 }
 
 .hero-img {
-    .hero-img {
     width: 45%;
     max-width: 500px;
     height: auto;
     display: block;
     border-radius: 20px;
     box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+}
+
 }
 .hero img {
     flex-shrink: 0;
