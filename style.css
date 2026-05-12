@@ -14,7 +14,7 @@ body {
     justify-content: space-between;
     padding: 60px;
     background: linear-gradient(135deg, #fce7ef, #f8d7e3, #f4cbd8);
-    min-height: 450px; /* ADD THIS */
+    min-height: 500px; /* ADD THIS */
     gap: 40px;
 }
 
