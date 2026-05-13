@@ -106,6 +106,48 @@ body {
     text-decoration: none;
 }
 
+.scan-container {
+  text-align: center;
+  padding: 60px 20px;
+  background: #f7e9ef;
+  border-radius: 20px;
+  max-width: 500px;
+  margin: 60px auto;
+}
+
+.scan-container h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #4a2e2e;
+  margin-bottom: 10px;
+}
+
+.scan-container p {
+  color: #6b4f4f;
+  margin-bottom: 30px;
+}
+
+.upload-box input[type="file"] {
+  padding: 14px;
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #d8bfc4;
+  width: 100%;
+  cursor: pointer;
+}
+
+.continue-btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 14px 40px;
+  background: #d8bfc4;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
 .feature-card a:hover {
     text-decoration: underline;
 }
