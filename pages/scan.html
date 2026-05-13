@@ -7,14 +7,18 @@
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-
-  <div class="container">
+  <div class="scan-container">
     <h1>Scan Your Face</h1>
     <p>Upload a selfie or use your camera.</p>
 
-    <input type="file" accept="image/*" id="upload">
-    <a href="looks.html" class="btn">Continue</a>
-  </div>
+    <div class="upload-box">
+      <input type="file" accept="image/*" capture="user" id="faceUpload">
+    </div>
 
+    <a href="looks.html" class="continue-btn">Continue</a>
+  </div>
+</body>
+
+  
 </body>
 </html>
