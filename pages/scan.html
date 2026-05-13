@@ -12,7 +12,19 @@
     <p>Upload a selfie or use your camera.</p>
 
     <div class="upload-box">
-      <input type="file" accept="image/*" capture="user" id="faceUpload">
+      <div class="scan-step">
+  <h1>Face Forward</h1>
+  <p>Hold your head straight and look directly at the camera.</p>
+
+  <div class="camera-frame">
+    <label for="upload" class="camera-btn">📸</label>
+  </div>
+
+  <input type="file" accept="image/*" capture="user" id="upload" style="display:none;">
+
+  <a href="scan-left.html" class="next-btn">Next</a>
+</div>
+
     </div>
 
     <a href="looks.html" class="continue-btn">Continue</a>
